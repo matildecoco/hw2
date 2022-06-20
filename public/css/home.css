@@ -1,0 +1,168 @@
+body {
+  background-image: url("image/home_background.jpg");
+  margin: 0px;
+  
+}
+
+#titolo {
+  margin: 0px;
+  position: absolute;
+  left: 100px;
+  top: 125px;
+  font-family: 'Pacifico', cursive;
+  color: #3b3838;
+}
+
+
+header {
+  position: absolute;
+  left: 400px;
+  top: 40px;
+  font-size: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.658);
+  border: 0.1px solid rgba(255, 255, 255, 0.658);
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #3b3838;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+
+#boxPosts {
+  margin-top: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: 10px solid rgba(255, 215, 0, 0);
+  background-color: rgba(247, 242, 245, 0.8);
+  border-radius: 5%;
+  width: 500px;
+  height: 750px;
+}
+
+.boxUtente{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.boxPost .boxUtente img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.boxUrlPost {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxPost .boxUrlPost img{
+ width: 500px;
+ height: 500px;
+ border-radius: 20%;
+}
+
+#modalView.hidden {
+  display: none;
+}
+
+.dataPost {
+  margin-left: 330px;
+  margin-top: -20px;
+  font-family: 'Pacifico', cursive;
+}
+
+.buttonBox {
+  margin-top: 25px;
+}
+
+
+#modalView .boxIcona img {
+  width: 100px;
+  height: 100px;
+}
+
+#modalView .boxIcona {
+  position: relative;
+  top: -270px;
+}
+
+#modalView {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#modalView img {
+  height: 400px;
+  width: 400px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.boxLikeUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFD700;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  width: 600px;
+}
+
+
+input[type=submit] {
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.buttonBox .contatoreLike {
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.boxUrlPost .titoloPost {
+  font-family: 'Balsamiq Sans', cursive;
+  width: 480px;
+  font-size: 100%;
+  word-wrap: break-word;
+}
+

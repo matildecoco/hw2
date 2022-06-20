@@ -1,0 +1,86 @@
+body {
+    background-image: url("image/home_background.jpg");
+  }
+
+.no-scroll {
+    overflow: hidden;
+  }
+  
+#titolo {
+    margin: 0px;
+  position: absolute;
+  left: 100px;
+  top: 125px;
+  font-family: 'Pacifico', cursive;
+  color: #3b3838;
+  }
+  
+  
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+  
+input[type=text] {
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+    padding: 3px;
+}
+  
+
+input[value=Cerca] {
+    border-radius: 20px;
+    padding: 3px;
+    position: relative;
+    left: 20px;
+}
+  
+a {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 150px;
+    color: #3b3838;
+    text-decoration: none;
+}
+  
+#boxUtenti {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.boxUtente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.boxUtente .immagine {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.boxUtente .nomeUtente {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: large;
+    font-weight: bold;
+    color: #858585;
+}
+
+.boxUtente .buttonBox input[type=submit] {
+    border-radius: 20px;
+    padding: 3px;
+    width: 100px;
+}
+  
+  
+ 
+  
+
+

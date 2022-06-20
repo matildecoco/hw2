@@ -1,0 +1,136 @@
+body {
+  background-image: url("image/home_background.jpg");
+  
+}
+
+#boxPost {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+#boxPost .album {
+  margin: 10px;
+  border: 1px solid #b0c4de;
+  padding: 5px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFD700;
+}
+
+#boxPost img {
+  max-width: 100%;
+}
+
+#modalView {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#modalView img {
+  height: 400px;
+  width: 400px;
+}
+
+
+
+#modalView.hidden {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+
+#titolo {
+  margin: 0px;
+  position: absolute;
+  left: 100px;
+  top: 125px;
+  font-family: 'Pacifico', cursive;
+  color: #3b3838;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+input[type=text] {
+  border-radius: 20px;
+  width: 500px;
+  height: 30px;
+  padding: 3px;
+}
+
+select {
+  border-radius: 20px;
+  padding: 3px;
+  position: relative;
+  left: 20px;
+}
+
+input[value=Cerca] {
+  border-radius: 20px;
+  padding: 3px;
+  position: relative;
+  left: 20px;
+}
+
+a {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  left: 150px;
+  color: #3b3838;
+  text-decoration: none;
+}
+
+input[value=Condividi] {
+  border-radius: 20px;
+  padding: 3px;
+  margin-top: 10px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: large;
+}
+
+.albumTitle{
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: large;
+  font-weight: bold;
+}
+
+option {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#modalView .boxIcona img {
+  width: 100px;
+  height: 100px;
+}
+
+#modalView .boxIcona {
+  margin-bottom: 600px;
+  position: relative;
+  left: 80px;
+}

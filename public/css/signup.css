@@ -1,0 +1,71 @@
+body {
+    background-image: url("image/login_background.jpg");
+}
+
+
+
+#boxSignup {
+    border: 1px solid #b0c4de;
+    border-radius: 5px;
+    background-color: #b0c4de;
+    opacity: 0.8;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: large;
+    font-weight: bold;
+    width: 30%;
+    margin-left: 790px;
+    margin-top: 100px;
+    
+}
+
+#boxSignup h3 {
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    border-radius: 20px;
+    width: 97%;
+    padding: 3px;
+    
+}
+
+input[type=submit] {
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 790px;
+}
+
+#boxLogin {
+    display: flex;
+    font-family: 'Balsamiq Sans', cursive;
+    margin-left: 790px;
+}
+
+#accedi {
+    color: navy ;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+header {
+    position: absolute;
+    top: 170px;
+    left: 200px; 
+    margin-left: 150px;
+}
+
+#titolo {
+    margin: 0px;
+  position: absolute;
+  left: 100px;
+  top: 125px;
+  font-family: 'Pacifico', cursive;
+  color: #3b3838;
+ 
+}
+
+
+ 
