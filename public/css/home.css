@@ -104,6 +104,7 @@ nav a {
 #modalView .boxIcona img {
   width: 100px;
   height: 100px;
+  background-image: url("image/chiudi_icona.png");
 }
 
 #modalView .boxIcona {
