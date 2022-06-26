@@ -79,7 +79,6 @@ function modale(event){
 function onJSON(json) {
     
     const library = document.querySelector('#boxPost');
-    library.innerHTML = '';
     if(opzione === 'spotify') {
       console.log(json);
     
