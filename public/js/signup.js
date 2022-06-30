@@ -1,16 +1,7 @@
 function onJSON(json)
 {
     const erroreNomeUtente = document.querySelector('#ErroreUser');
-    erroreNomeUtente.innerHTML = '';
-    for(user of json)
-    {   
-      
-      if(user.nomeUtente == testo.value){
-          erroreNomeUtente.innerHTML = 'Nome utente non disponibile';
-          event.preventDefault();
-      }
-
-    }
+   
 }
 
 function onResponse(response){
@@ -31,12 +22,12 @@ function validazioneSignUp(event){
     }
 
     if(signUp.password.value != signUp.confPassword.value){
-        errorePassword.innerHTML = 'Le password non coincidono';
+   
         event.preventDefault();
     }
 
     if(signUp.email.value.indexOf('@') == -1){
-        erroreMail.innerHTML = 'Email non valida';
+       
         event.preventDefault();
     }
 }
